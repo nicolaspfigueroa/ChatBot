@@ -5,8 +5,8 @@
 ## Setup
 
 - Install all node packages using the command "npm i"
-- PostgreSQL serves as the database language. The user must have a database with the password "admin" or edit the password in the "server/koa/models/index.js" file.
-- Navigate to the "server" folder and start the server by entering the command "nodemon index.js"
+- PostgreSQL serves as the database language. The user must have a database with the password "admin" or edit the password in the "server/orm/koa/models/index.js" file.
+- Start the application using the command "gulp start"
 
 ## Execution
 

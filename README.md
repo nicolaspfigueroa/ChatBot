@@ -11,4 +11,4 @@
 ## Execution
 
 - Run the app by opening the file entitled "index.html" located in the "client" folder.
-- Enter soemthing into the chat, the computer will respond with a random quote within a random amount of time.
+- Enter something into the chat, the computer will respond with a random quote within a random amount of time.

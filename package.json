@@ -1,0 +1,29 @@
+{
+  "name": "sexy-chat-exercise",
+  "version": "1.0.0",
+  "description": "It’s time to finally make your chat client look more sexy, while adding useful features to your front-end development process!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspfigueroa/sexy-chat-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspfigueroa/sexy-chat-exercise/issues"
+  },
+  "homepage": "https://github.com/nicolaspfigueroa/sexy-chat-exercise#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  }
+}

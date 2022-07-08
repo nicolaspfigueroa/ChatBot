@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&family=Space+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  border: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6e6ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.client {
+  width: 400px;
+  height: 80px;
+  padding: 15px;
+  text-align: center;
+  background-color: #0000cc;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.client-info {
+  color: #ffff
+}
+
+.messages-container {
+  width: 400px;
+  height: 450px;
+  background-color: #ffff;
+  overflow: auto;
+  position: relative;
+  padding: 15px;
+}
+
+.message {
+  width: 100%;
+  padding: 0 15px;
+  margin: 15px;
+  color: #ffff;
+  position: relative;
+  font-size: 0.9em;
+  overflow: auto;
+}
+
+.left  {
+  width: 60%;
+  word-wrap: break-word;
+  background-color: #3377ff;
+  padding: 7px 10px;
+  border-radius:  10px 10px 10px 0px ;
+  margin: 10px 0;
+}
+
+.right {
+  width: 60%;
+  word-wrap: break-word;
+  background-color: #99bbff;
+  padding: 7px 10px;
+  border-radius: 10px 10px 0 10px;
+  margin: 5px 0 5px auto;
+  align-self: flex-end;
+}
+
+.message-time {
+  color: #ffff;
+  padding-top: 5px;
+  font-size: 0.7rem;
+}
+
+.right .message-text {
+  text-align: right;
+}
+
+.right .message-time {
+  float: right;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 45px;
+  background-color: #ffff;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px
+}
+
+input {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 0 15px;
+}
+
+.send-button {
+  position: relative;
+  cursor: pointer;
+  background-color: #ffff;
+  float: right;
+  background-color: transparent;
+  transition: 0.4s ease-in-out;
+}
+
+.send-button:hover {
+  background-color: rgb(192, 198, 222);
+  color: rgba(255, 255, 255);
+}
+
+.send-btn:active {
+  transform: scale(0.4);
+}
+
+.chat-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url("images/chat.jpg");
+  background-size: contain;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  bottom: 0px;
+  margin: 30px;
+  align-content: center;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+
+.chat-btn:hover {
+  transform: rotate(30deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .send-button {
+    width: 20%;
+    min-width: 10px;
+  }
+
+  .input-container {
+    padding: 15px 20px;
+  }
+}
